@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SketchArt Club</title>
+    <link rel="stylesheet" href="style/Home.css">
+    <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="header">
+                <img src="https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/life/co-curricular-activities/arts-and-culture/sketch-art/Sketch%20Art%20Club%20Logo.png"
+                    alt="SketchArt" class="logo">
+                <h1 class="title">SketchArt</h1>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Achievements.html">Achievements</a></li>
+            </ul>
+
+            <button class="contact-btn" onclick="goToPage('Contact.html')">Contact Us</button>
+        </nav>
+    </header>
+
+    <section>
+        <div class="content">
+            <h1>Welcome to <br>SketchArt<br>Club</h1>
+        </div>
+        <div>
+        <button class="join-btn" onclick="goToPage('Form.html')">Join Us!</button>
+        </div>
+        <div class="media-icons">
+            <a href="https://www.instagram.com/nypsketchart/?hl=en"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/nypsketchart/?hl=en"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <main>
+        <div class="info-card">
+            <img src="image/PeoplePainting.webp" alt="Painting Activity">
+            <div class="text-content">
+                <h2>About</h2>
+                <p>Our Art Club welcomes everyone, regardless of background or experience level and nurtures a genuine love for art!</p>
+                <button class="learn-btn" onclick="goToPage('About.html')">Learn More</button>
+            </div>
+        </div>
+
+        <div class="info-card reverse">
+            <div class="text-content">
+                <h2>Events</h2>
+                <p>Our Art Club organises a variety of creative and entertaining events throughout the year!</p>
+                <button class="learn-btn" onclick="goToPage('Events.html')">Learn More</button>
+            </div>
+            <img src="image/Activities.jpg" alt="Art Exhibition">
+        </div>
+
+        <div class="info-card">
+            <img src="image/art gallery.jpg" alt="Gallery">
+            <div class="text-content">
+                <h2>Gallery</h2>
+                <p>This is where our creativity comes to life. Every piece you see here was made by one of our members!</p>
+                <button class="learn-btn" onclick="goToPage('Gallery.html')">Learn More</button>
+            </div>
+        </div>
+
+        <div class="info-card reverse">
+            <div class="text-content">
+                <h2>Achievements</h2>
+                <p>Our Art Club has proudly competed in school-level and national art contests, winning awards for their creativity and collaboration!</p>
+                <button class="learn-btn" onclick="goToPage('Achievements.html')">Learn More</button>
+            </div>
+            <img src="image/world art.jpg" alt="Achievements">
+        </div>
+        <script>
+            function goToPage(page) {
+                window.location.href = page;
+            }
+        </script>
+    </main>
+</body>
+
+</html>

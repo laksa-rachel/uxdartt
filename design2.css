@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+}
+
+.gallery {
+    background-image:url(https://i.pinimg.com/736x/0c/d0/55/0cd0551f106e74b55b3b73c0efdeaf9c.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.gallery h1 {
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.gallery p.description {
+    font-size: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.member-gallery {
+  padding: 50px 20px;
+  text-align: center;
+
+}
+
+.member-gallery h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.gallery-table {
+  margin: 0 auto;
+  border-spacing: 30px;
+}
+
+.gallery-table img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+  font-size: 14px;
+  color: #333;
+  margin-top: 8px;
+}
+
+.logo {
+    background-color: rgb(2, 2, 77);
+    padding: 40px 20px;    
+}
+
+.logo-table {
+  width: 100%;
+  color: white;
+  table-layout: fixed;
+  text-align: left;
+}
+
+.logo-table td {
+  vertical-align: top;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.logo-table img {
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+ 
+}
+
+.sketchart {
+  font-size: 32px;
+  font-family: Georgia, serif;
+  margin: 10px 0;
+}
+
+.address {
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.logo-table h6 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: left;
+}
+
+
+.bottom a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 4px 0;
+  text-align: left;
+  font-size:  18px;
+}
+
+.bottom a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
+
+.logo-table p {
+  font-size: 18px;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.last{
+  background-color: rgb(1, 1, 44);
+}
+ 
+p{
+  color: white;
+  margin-left: 10px;
+}
+
+.teacher-in-charge {
+  position: relative;
+}
+
+.instagram-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px; /* changed from left to right */
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  
+}
+
+.instagram-icon:hover {
+  opacity: 1;
+
+}
+

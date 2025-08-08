@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Art Workshops</title>
+    <link rel="stylesheet" href="style/Events.css">
+    <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="header">
+                <img src="https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/life/co-curricular-activities/arts-and-culture/sketch-art/Sketch%20Art%20Club%20Logo.png"
+                    alt="SketchArt" class="logo">
+                <h1 class="title">SketchArt</h1>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Events.html" class="active">Events</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Achievements.html">Achievements</a></li>
+            </ul>
+
+            <button class="contact-btn" onclick="goToPage('Contact.html')">Contact Us</button>
+        </nav>
+        <script>
+            function goToPage(page) {
+                window.location.href = page;
+            }
+        </script>
+    </header>
+
+    <section>
+        <br>
+        <h1>Events</h1>
+        <p>Our Art Club offers fun, hands-on activities like workshops, sketching sessions, mural painting, and
+            exhibitions.
+            We collaborate with other CCAs on themed projects and go on educational trips to art galleries.
+            There's something for every artist, no matter your experience level.</p>
+    </section>
+
+    <main>
+        <div class="exhibition">
+            <h2>What's On</h2>
+            <p class="subheading">revisit past events</p>
+
+            <div class="cards-container">
+                <!-- Event 1 -->
+                <div class="card">
+                    <img src="image/event1.png" alt="Tingkat Painting">
+                    <div class="card-content">
+                        <h3>Tingkat Painting</h3>
+                        <p>Paint your own iconic Tingkat while exploring Peranakan heritage</p>
+                    </div>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="card">
+                    <img src="image/event2.png" alt="Make Fine Pottery">
+                    <div class="card-content">
+                        <h3>Make Fine Pottery</h3>
+                        <p>Take your pottery skills to the next level and bring home your amazing pieces</p>
+                    </div>
+                </div>
+
+                <!-- Event 3 -->
+                <div class="card">
+                    <img src="image/event3.png" alt="Singapore Art Museum">
+                    <div class="card-content">
+                        <h3>Singapore Art Museum</h3>
+                        <p>Our art museum trip lets members explore inspiring artworks and connect with different
+                            styles.</p>
+                    </div>
+                </div>
+                <div>
+                    <h2>Upcoming Events</h2>
+                    <p class="subheading">coming soon</p>
+                </div>
+                <table class="calendar">
+                    <caption>August 2025</caption>
+                    <thead>
+                        <tr>
+                            <th>Sun</th>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td class="event-cell">
+                                <div class="event-date">15</div>
+                                <div class="event-text">Watercolor Workshop</div>
+                            </td>
+                            <td>16</td>
+                            <td>17</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>

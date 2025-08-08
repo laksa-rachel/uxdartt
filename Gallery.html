@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SketchArt Club</title>
+    <link rel="stylesheet" href="style/Gallery.css">
+    <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="header">
+                <img src="https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/life/co-curricular-activities/arts-and-culture/sketch-art/Sketch%20Art%20Club%20Logo.png"
+                    alt="SketchArt" class="logo">
+                <h1 class="title">SketchArt</h1>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="Gallery.html" class="active">Gallery</a></li>
+                <li><a href="Achievements.html">Achievements</a></li>
+            </ul>
+
+            <button class="contact-btn" onclick="goToPage('Contact.html')">Contact Us</button>
+        </nav>
+        <script>
+            function goToPage(page) {
+                window.location.href = page;
+            }
+        </script>
+    </header>
+</body>

@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+}
+
+.achievements {
+    background-image:url(https://i.pinimg.com/1200x/88/0a/b1/880ab120379449a019cd5173886f4f3e.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.achievements h1 {
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.achievements p.description {
+    font-size: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.achievement-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.achievement-table th,
+.achievement-table td {
+    padding: 10px 20px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 25px;
+}
+
+.showcase img,
+.Runner-up img {
+  width: 400px;
+  height: auto;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.logo {
+    background-color: rgb(2, 2, 77);
+    padding: 40px 20px;    
+}
+
+.logo-table {
+  width: 100%;
+  color: white;
+  table-layout: fixed;
+  text-align: left;
+}
+
+.logo-table td {
+  vertical-align: top;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.logo-table img {
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+ 
+}
+
+.sketchart {
+  font-size: 32px;
+  font-family: Georgia, serif;
+  margin: 10px 0;
+}
+
+.address {
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.logo-table h6 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: left;
+}
+
+
+.bottom a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 4px 0;
+  text-align: left;
+  font-size:  18px;
+}
+
+.bottom a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
+
+.logo-table p {
+  font-size: 18px;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.last{
+  background-color: rgb(1, 1, 44);
+}
+ 
+p{
+  color: white;
+  margin-left: 10px;
+}
+
+.teacher-in-charge {
+  position: relative;
+}
+
+.instagram-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px; /* changed from left to right */
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  
+}
+
+.instagram-icon:hover {
+  opacity: 1;
+
+}
+
+.top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #444;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
+.top-btn:hover {
+  background-color: #777;
+}
+

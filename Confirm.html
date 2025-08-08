@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmation</title>
+  <link rel="stylesheet" href="style/Join-btn.css">
+</head>
+<body>
+  <div class="confirmation-box">
+    <h2>Thank you for joining us!</h2>
+    <p><strong>Name:</strong> <span id="displayName"></span></p>
+    <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+    <p><strong>Password:</strong> <span id="displayPassword"></span></p>
+    <br>
+    <a href="Home.html" class="btn">Back to Home</a>
+    <br>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById("displayName").textContent = params.get("name") || "N/A";
+    document.getElementById("displayEmail").textContent = params.get("email") || "N/A";
+    document.getElementById("displayPassword").textContent = params.get("password") || "N/A";
+    document.getElementById("displayPassword").textContent = "*".repeat(params.get("password").length);
+  </script>
+</body>
+</html>
