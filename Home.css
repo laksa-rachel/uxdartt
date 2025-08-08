@@ -1,0 +1,143 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+ }
+
+ section {
+    background-image: url(../image/test2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  padding-left: 40px;
+  position: relative;
+}
+
+.content {
+  text-align: left;
+}
+.content h1 {
+  font-family: Georgia, sans-serif;
+  font-size: 6.2em;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  text-align: left;
+  margin-left: 0;
+}
+
+.content br {
+  display: block;
+}
+
+.content h1 span {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.join-btn {
+  margin-bottom: 10px;
+  padding: 20px 45px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: x-large;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  width: fit-content;
+}
+
+.join-btn:hover {
+  background-color: rgb(55, 142, 205);
+}
+
+.media-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.media-icons a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+
+.media-icons a:hover {
+  color: #a09c9c;
+}
+
+/*New code*/
+/* Main container for all cards */
+main {
+    max-width: 1400px;
+    margin: 20px 50px;
+    padding: 20px;
+}
+
+.info-card {
+    display: flex;
+    margin-bottom: 60px; /* Increased spacing */
+    align-items: center;
+    gap: 10px; /* Increased gap between image and text */
+}
+
+.info-card img {
+    width: 50%; /* Slightly larger image area */
+    height: 350px; /* Fixed height for consistency */
+    object-fit: cover;
+    border-radius: 30px; /* Optional: adds rounded corners */
+}
+
+.text-content {
+    width: 50%; /* Adjusted text width */
+    padding: 40px; /* Increased padding */
+}
+
+.text-content h2 {
+    font-family: Georgia, sans-serif;
+    font-size: 35px; /* Larger heading */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.text-content p {
+    font-size: 20px; /* Larger text */
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.learn-btn {
+    background-color: #ffa800;
+    font-family: sans-serif;
+    color: black;
+    border: none;
+    padding: 15px 25px; /* Larger button */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.learn-btn:hover {
+    background-color: #e39802;
+}
+
+.info-card.reverse {
+  text-align: left;
+}
